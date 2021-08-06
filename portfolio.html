@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>portfolio</title>
+  </head>
+  <body>
+    <style>
+      .one {
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #eec520;
+      }
+      .two {
+        width: 50%;
+        height: 460px;
+        background-color: #e0b818;
+        border-radius: 0.5rem;
+        box-shadow: 0 25px 50px -12px rgba(26, 25, 25, 0.25);
+        position: absolute;
+      }
+      .box {
+        position: relative;
+      }
+      .box .text {
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 40%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%; /* Set the width of the positioned div */
+      }
+      .box .para {
+        border-radius: 1.5rem;
+        box-shadow: 0 25px 50px -12px rgba(26, 25, 25, 0.25);
+      }
+      h1 {
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 1;
+      }
+      h6 {
+        background-color: #ebc531;
+        border-radius: 1.5rem;
+        box-shadow: 0 25px 50px -12px rgba(26, 25, 25, 0.25);
+        text-shadow: #ccaa20;
+      }
+      img {
+        border-radius: 9999px;
+      }
+      btn {
+        font-weight: 700;
+        border-radius: 1.5rem;
+        box-shadow: 0 25px 50px -12px rgba(26, 25, 25, 0.25);
+      }
+    </style>
+
+    <section class="one">
+      <div class="two">
+        <figure class="box flex items-center h-full">
+          <img src="d.jpg" class="" alt="image" />
+          <h6 class="pb-24 pl-14 text-2xl font-extrabold text-gray-200">
+            Hello
+          </h6>
+          <div class="text">
+            <h1 class="text-current">I'm Muqaddas</h1>
+          </div>
+          <div class="para inline-block h-16 pt-8 text-gray-200">
+            <b>A Freelancer full stake Web Designer</b>
+
+            <button type="button" class="btn btn-light pt-6">
+              <b class="text-yellow-300">Hire me</b>
+            </button>
+          </div>
+        </figure>
+      </div>
+    </section>
+  </body>
+</html>
